@@ -1,0 +1,113 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(154, 221, 230) ;
+    color:white;
+    font-size: larger;
+    padding:10px;
+}
+.outer_box{
+    border-radius: 20px;
+    border: 3px solid white;  
+    color: white;  
+    width: 750px;
+    height: 450px;
+    background-color: paleturquoise;
+    position: absolute;
+    top:10%;
+    left:25%;
+    padding:10px;
+}
+.icon{
+    color: white;
+    font-size: 45px;
+    font-weight: 45px;
+} 
+.inner_box{
+    width: 485px;
+    height:446px;
+    background-color: white;
+    margin-left: 34%;
+    border-radius: 20px;
+    position: absolute;
+    top:0%;
+    color:black;
+}
+.box{
+    float: none;    
+    height:390px;
+    width:310px;
+    margin-left:15%;
+    margin-top: 10%;
+    font-family: monospace;
+    padding: 5px;
+}
+button{
+    padding:5px;
+    text-align: center;
+    border:1px solid darkgray;
+    border-radius: 10px;
+    background-color: white;
+    cursor:pointer;
+}
+.fa-google, .fa-facebook {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}  
+.box p{
+    text-align: center;
+} 
+h2{
+    font-weight: bolder;
+}
+input{
+    outline:none;
+    border:none;
+    border-bottom: 1px solid gray !important;
+    opacity: 0.7;
+    width:100%;
+    padding: 10px;    
+}
+.sbt{
+    background-color: rgb(41, 187, 212);
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+}
+.lnk{
+    text-decoration: none;
+    color:rgb(41, 187, 212) !important;
+}
+a:visited{
+    color:gray;
+}
+form p{
+    color:gray;
+}
+.circle{
+    background-color:white ;
+    position: absolute;
+    top:190px;
+    margin-left:18%;
+    z-index: +9999;
+    width:180px;
+    height:180px;
+    border-radius: 50%;
+    border-right: 100px !important;
+}
+.smallcircle{
+    background-color:paleturquoise ;
+    position: absolute;
+    top:14px;
+    margin-left:9%;
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    box-shadow: inset 5px 5px 10px gray;
+}
